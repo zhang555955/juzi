@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+    <h1>学生注册</h1>
+    <hr>
+    {#  <form action="http://127.0.0.1:8001/register" method="get">#}
+    <form action="{% url 'reg' %}"
+        <p>姓名</p><input type="text" name="user">
+        <p>年龄</p><input type="text" name="age">
+        <p>爱好</p><input type="checkbox" name="hobby" value="1">电脑
+        <input type="checkbox" name="hobby" value="2">蓝球
+        <input type="checkbox" name="hobby" value="3">足球
+
+        <p><input type="submit" value="提交"><p>
+     <form>
+</body>
+</html>

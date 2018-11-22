@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>当前时间</title>
+</head>
+<body>
+    <h1>当前时间：{{ time }}</h1>
+
+<script src="{% static 'jquery-3.1.1.js' %}"></script>
+<script>
+    $('h1').css('color','blue')
+</script>
+</body>
+</html>

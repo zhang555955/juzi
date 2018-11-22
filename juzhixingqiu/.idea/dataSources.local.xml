@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="db" uuid="aaf7928f-eece-4c59-90bc-cb94c8c5d2e9">
+      <auth-required>false</auth-required>
+    </data-source>
+    <data-source name="Django default" uuid="32b66dbd-4106-47e6-8d15-b3c11dee1ce9">
+      <auth-required>false</auth-required>
+    </data-source>
+  </component>
+</project>
